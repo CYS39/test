@@ -1,0 +1,63 @@
+[0;33m--- esp-idf-monitor 1.6.0 on /dev/ttyUSB0 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x400827b3: lock_acquire_generic at /home/gzlg/esp32/esp-idf/components/newlib/locks.c:133
+[0m
+[0;33m--- 0x400818ed: panic_abort at /home/gzlg/esp32/esp-idf/components/esp_system/panic.c:454
+--- 0x40085a85: esp_system_abort at /home/gzlg/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:92
+--- 0x4008b84d: abort at /home/gzlg/esp32/esp-idf/components/newlib/abort.c:38
+--- 0x400827b3: lock_acquire_generic at /home/gzlg/esp32/esp-idf/components/newlib/locks.c:133
+--- 0x400828f1: _lock_acquire_recursive at /home/gzlg/esp32/esp-idf/components/newlib/locks.c:162
+--- 0x4008296a: __retarget_lock_acquire_recursive at /home/gzlg/esp32/esp-idf/components/newlib/locks.c:321
+--- 0x400d900b: _puts_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:89 (discriminator 2)
+--- 0x400d9047: puts at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:129 (discriminator 1)
+--- 0x40082aa2: gpio_isr_handler at /home/gzlg/esp32/hello_world/build/../main/hello_world_main.c:25
+--- 0x40083096: gpio_isr_loop at /home/gzlg/esp32/esp-idf/components/esp_driver_gpio/src/gpio.c:466
+--- 0x40083126: gpio_intr_service at /home/gzlg/esp32/esp-idf/components/esp_driver_gpio/src/gpio.c:488
+--- 0x40082e45: _xt_lowint1 at /home/gzlg/esp32/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x40084833: xt_utils_wait_for_intr at /home/gzlg/esp32/esp-idf/components/xtensa/include/xt_utils.h:82
+---  (inlined by) esp_cpu_wait_for_intr at /home/gzlg/esp32/esp-idf/components/esp_hw_support/cpu.c:55
+--- 0x400d229b: esp_vApplicationIdleHook at /home/gzlg/esp32/esp-idf/components/esp_system/freertos_hooks.c:58
+--- 0x40087066: prvIdleTask at /home/gzlg/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4353 (discriminator 1)
+--- 0x40086279: vPortTaskWrapper at /home/gzlg/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400827b3: lock_acquire_generic at /home/gzlg/esp32/esp-idf/components/newlib/locks.c:133
+[0m
+[0;33m--- 0x400818ed: panic_abort at /home/gzlg/esp32/esp-idf/components/esp_system/panic.c:454
+--- 0x40085a85: esp_system_abort at /home/gzlg/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:92
+--- 0x4008b84d: abort at /home/gzlg/esp32/esp-idf/components/newlib/abort.c:38
+--- 0x400827b3: lock_acquire_generic at /home/gzlg/esp32/esp-idf/components/newlib/locks.c:133
+--- 0x400828f1: _lock_acquire_recursive at /home/gzlg/esp32/esp-idf/components/newlib/locks.c:162
+--- 0x4008296a: __retarget_lock_acquire_recursive at /home/gzlg/esp32/esp-idf/components/newlib/locks.c:321
+--- 0x400d900b: _puts_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:89 (discriminator 2)
+--- 0x400d9047: puts at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:129 (discriminator 1)
+--- 0x40082aa2: gpio_isr_handler at /home/gzlg/esp32/hello_world/build/../main/hello_world_main.c:25
+--- 0x40083096: gpio_isr_loop at /home/gzlg/esp32/esp-idf/components/esp_driver_gpio/src/gpio.c:466
+--- 0x40083126: gpio_intr_service at /home/gzlg/esp32/esp-idf/components/esp_driver_gpio/src/gpio.c:488
+--- 0x40082e45: _xt_lowint1 at /home/gzlg/esp32/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x40084833: xt_utils_wait_for_intr at /home/gzlg/esp32/esp-idf/components/xtensa/include/xt_utils.h:82
+---  (inlined by) esp_cpu_wait_for_intr at /home/gzlg/esp32/esp-idf/components/esp_hw_support/cpu.c:55
+--- 0x400d229b: esp_vApplicationIdleHook at /home/gzlg/esp32/esp-idf/components/esp_system/freertos_hooks.c:58
+--- 0x40087066: prvIdleTask at /home/gzlg/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4353 (discriminator 1)
+--- 0x40086279: vPortTaskWrapper at /home/gzlg/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400827b3: lock_acquire_generic at /home/gzlg/esp32/esp-idf/components/newlib/locks.c:133
+[0m
+[0;33m--- 0x400818ed: panic_abort at /home/gzlg/esp32/esp-idf/components/esp_system/panic.c:454
+--- 0x40085a85: esp_system_abort at /home/gzlg/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:92
+--- 0x4008b84d: abort at /home/gzlg/esp32/esp-idf/components/newlib/abort.c:38
+--- 0x400827b3: lock_acquire_generic at /home/gzlg/esp32/esp-idf/components/newlib/locks.c:133
+--- 0x400828f1: _lock_acquire_recursive at /home/gzlg/esp32/esp-idf/components/newlib/locks.c:162
+--- 0x4008296a: __retarget_lock_acquire_recursive at /home/gzlg/esp32/esp-idf/components/newlib/locks.c:321
+--- 0x400d900b: _puts_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:89 (discriminator 2)
+--- 0x400d9047: puts at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:129 (discriminator 1)
+--- 0x40082aa2: gpio_isr_handler at /home/gzlg/esp32/hello_world/build/../main/hello_world_main.c:25
+--- 0x40083096: gpio_isr_loop at /home/gzlg/esp32/esp-idf/components/esp_driver_gpio/src/gpio.c:466
+--- 0x40083126: gpio_intr_service at /home/gzlg/esp32/esp-idf/components/esp_driver_gpio/src/gpio.c:488
+--- 0x40082e45: _xt_lowint1 at /home/gzlg/esp32/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x40084833: xt_utils_wait_for_intr at /home/gzlg/esp32/esp-idf/components/xtensa/include/xt_utils.h:82
+---  (inlined by) esp_cpu_wait_for_intr at /home/gzlg/esp32/esp-idf/components/esp_hw_support/cpu.c:55
+--- 0x400d229b: esp_vApplicationIdleHook at /home/gzlg/esp32/esp-idf/components/esp_system/freertos_hooks.c:58
+--- 0x40087066: prvIdleTask at /home/gzlg/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4353 (discriminator 1)
+--- 0x40086279: vPortTaskWrapper at /home/gzlg/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0m

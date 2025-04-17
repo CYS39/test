@@ -1,4 +1,4 @@
--- IDF_TARGET not set, using default target: esp32
+-- Existing sdkconfig '/home/gzlg/esp32/hello_world/sdkconfig' renamed to '/home/gzlg/esp32/hello_world/sdkconfig.old'.
 -- Found Git: /usr/bin/git (found version "2.25.1") 
 -- The C compiler identification is GNU 14.2.0
 -- The CXX compiler identification is GNU 14.2.0
@@ -16,8 +16,6 @@
 -- Detecting CXX compiler ABI info - done
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- git rev-parse returned 'fatal: 不是 git 仓库（或者任何父目录）：.git'
--- Could not use 'git describe' to determine PROJECT_VER.
 -- Building ESP-IDF components for target esp32
 -- Project sdkconfig file /home/gzlg/esp32/hello_world/sdkconfig
 -- Compiler supported targets: xtensa-esp-elf
@@ -29,7 +27,7 @@
 -- Found Threads: TRUE  
 -- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
 -- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
--- App "hello_world" version: 1
+-- App "hello_world" version: ef6941f-dirty
 -- Adding linker script /home/gzlg/esp32/hello_world/build/esp-idf/esp_system/ld/memory.ld
 -- Adding linker script /home/gzlg/esp32/hello_world/build/esp-idf/esp_system/ld/sections.ld.in
 -- Adding linker script /home/gzlg/esp32/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
